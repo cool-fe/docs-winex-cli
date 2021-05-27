@@ -1,0 +1,19 @@
+{
+  "name": "docs-winex-cli",
+  "version": "0.0.1",
+  "description": "winex winex-cli docs vuepress",
+  "main": "index.js",
+  "authors": {
+    "name": "gaowujun",
+    "email": "18570148691@163.com"
+  },
+  "repository": "https://github.com/cool-fe/docs-winex-cli.git/docs-winex-cli",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
