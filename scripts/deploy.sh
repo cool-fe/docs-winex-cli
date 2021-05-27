@@ -24,9 +24,9 @@ cd "${PUBLISH_DIR}" # ./docs/.vuepress/dist
 # 为gh-pages 生成CNAME，发现使用别人提供的脚本，生成的竟然是小写的CNAME文件，所以改为小写的，使用脚本写入
 
 # 设置CNAME
-if [ -n "${CNAME}" ]; then 
-    echo "${CNAME}">CNAME
-fi 
+#if [ -n "${CNAME}" ]; then 
+    # echo "${CNAME}">CNAME
+#fi 
 
 # 格式化的输出
 function print_error() {
@@ -64,6 +64,7 @@ git checkout --orphan "${remote_branch}" # 积累无数次commit，不算分支
 
 git config user.name "${GITHUB_ACTOR}"
 git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
 
 git remote rm origin || true
 git remote add origin "${remote_repo}"

@@ -52,4 +52,4 @@ $ winex lint
 
 |                               Github Issue                                |                                                        企业微信                                                         |
 | :-----------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
-| <p style="width:200px"></p>[winex-cli](https://github.com/cool-fe/winex-cli/issues)</p> | <p style="width:650px"  height="310"><img src="/dingding.jpg" width="216"  height="310" /> </p>|
+| <p style="width:200px"></p>[winex-cli](https://github.com/cool-fe/winex-cli/issues)</p> | <p style="width:650px"  height="310"><img src="/docs-winex-cli/dingding.jpg" width="216"  height="310" /> </p>|

@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  base:'/docs-winex-cli/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -54,7 +55,13 @@ module.exports = {
   },
 
   dest: 'public',
-
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@assets': '/docs-winex-cli/'
+      }
+    }
+  },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
