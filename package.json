@@ -26,6 +26,6 @@
     "@vuepress/plugin-pwa": "^1.5.4",
     "sass": "^1.32.0",
     "patch-package": "^6.2.2",
-    "sass-loader": "^8.0.2",
+    "sass-loader": "^8.0.2"
   }
 }
