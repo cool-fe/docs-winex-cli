@@ -21,7 +21,7 @@ $ winex add --plugin components-name
 ```
 1.从 `@winfe/get-materials` 查找，获取元数据
 
-2.执行 `npm/cnpm/yarn install components-name -save`
+2.执行 `cnpm/npm install / yarn add components-name -save`
 
 #### 区块、页面
 
@@ -34,9 +34,9 @@ $ winex add --plugin block-name
 
 3.是否需要安装区块或者页面所依赖的 `dependencies`
 
-如果安装的依赖检测到跟现有的项目依赖有主版本的差异，则会给出提示信息，如图：
+<font size=2 color=#999>如果安装的依赖检测到跟现有的项目依赖有主版本的差异，则会给出警告信息</font>
 
-## 参数
+## Options
 | 选项名称（option） | 缩写 | 选项说明 |  可选值 |
 |---------- |-------- |-------- |-------- |
 | --plugin | -p | 物料包名称 | - |
