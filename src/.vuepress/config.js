@@ -27,21 +27,20 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
+  theme: '@vuepress/theme-vue',
   themeConfig: {
-    repo: '',
+    repo: 'cool-fe/docs-winex-cli',
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    editLinkText: 'Edit this on GitHub!',
+    lastUpdated: 'Last updated',
+    docsDir: 'src',
+    sidebarDepth: 2,
     nav: [
       {
         text: '指南',
         link: '/guide/',
       },
-      {
-        text: 'winex-cli',
-        link: 'https://github.com/cool-fe/winex-cli.git'
-      }
+      
     ],
     sidebar: {
       '/guide/': [
@@ -66,6 +65,27 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: {
+          '/': {
+            message: '新内容可用',
+            buttonText: '刷新'
+          }
+        }
+      }
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'info',
+        before: info =>
+          `<div class="custom-block info"><p class="custom-block-title">${info}</p>`,
+        after: '</div>'
+      }
+    ],
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
   ]
