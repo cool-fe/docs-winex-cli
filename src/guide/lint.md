@@ -1,4 +1,4 @@
-# lint命令
+# lint配置
 
 
 ## winex lint
@@ -12,7 +12,7 @@ winex lint
 一键处理项目的各种config（除了项目开发框架的打包编译配置），例如eslint、prettier、husky、lint-staged、editorconfig、.vscode等
 
 ::: warning 警告
-如果你在历史项目中执行`winex lint`命令。可能会根据你项目之前的配置重新生成标准的配置文件，会修改项目本地文件，请在执行命令之前保证代码都已提交。
+如果你在历史项目中执行`winex lint`命令。可能会根据你项目之前的配置重新生成标准的配置文件(格式均为:`.xxxrc.js`)，会修改项目本地文件，请在执行命令之前保证代码都已提交。
 命令执行完毕后，你需要重新启动编辑器以使更新后的配置文件生效。
 :::
 
@@ -29,19 +29,22 @@ winex lint
 
 
 当你运行如上命令的时候，大概做了如下几件事情:
+
 - 根据项目类型安装eslint相关依赖包
-- 生成.eslintrc.js配置文件
+- 生`·.eslintrc.js`配置文件
 - 安装prettier依赖包
-- 生成.prettierrc.js配置文件
-- 生成.editorconfig配置文件
-- 生成.vscode/SVGTextPositioningElement.json编辑器配置文件
-- 安装husky并初始化.husky，配置pre-commit git hook
-- 安装lint-staged并生成.lintstagedrc.js配置文件，配置相应lint-staged钩子触发增量lint检测
+- 生成`.prettierrc.js`配置文件
+- 生成`.editorconfig`配置文件
+- 生成`.vscode/setting.json`编辑器配置文件
+- 安装husky并初始化`.husky`，配置pre-commit git hook
+- 安装lint-staged并生成`.lintstagedrc.js`配置文件，配置相应lint-staged钩子触发增量lint检测
 
 ![WINEX CLI ts](/docs-winex-cli/lint-all.png)
 
+你可以试着提交(`git add`、`git commit -m ''`)代码，就会触发`lint-staged`钩子：
 
 
+![WINEX CLI lint-commit](/docs-winex-cli/lint-commit.png)
 
 
 `winex lint` 命令有一些可选项，你可以通过运行以下命令进行探索：
@@ -53,11 +56,9 @@ winex lint --help
 ```
 用法：winex lint [options]
 
-初始化/升级 项目配置
-
+初始化/升级配置
 
 选项：
-
   -e, --env <envName>             项目运行环境选项
   -t, --typescript                是否支持TypeScript
   --pm <command>                  在安装依赖时使用指定的 npm 客户端: yarn、npm...

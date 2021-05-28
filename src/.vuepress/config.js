@@ -9,7 +9,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: 'a tool is the Standard Tooling for winfe.',
+  description: 'a tool is the Standard Tooling for winfe',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
