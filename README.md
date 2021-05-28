@@ -1,5 +1,5 @@
 # Winex cli 中文文档
-![Winex CLI-docs CI](https://github.com/cool-fe/docs-winex-cli/workflows/Winex CLI-docs%20CI/badge.svg) 
+![Winex CLI-docs CI](https://github.com/cool-fe/docs-winex-cli/workflows/Winex%20CLI-docs%20CI/badge.svg) 
 
 该站点基于 Vuepress 构建而成。网站内容在 src 文件夹内，格式为 Markdown。欢迎 issue 或 pull request。
 
