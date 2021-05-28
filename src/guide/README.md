@@ -4,4 +4,4 @@
 
 - 通过`winex init`快速初始化项目，基于模版物料，快速初始化项目，帮助开发者零成本创建项目。
 - 通过`winex add`快速选择和使用页面、区块、业务组件等物料，万千物料一键触达。
-- 通过`winex lint`一键解决项目的各种配置，eslint、prettier、editorconfig、.vscode配置、husky、lint-staged等，消灭配置烦恼。
+- 通过`winex lint`一键解决项目的各种配置，eslint、prettier、editorconfig、.vscode配置、husky、lint-staged等，消除一切配置的烦恼。
