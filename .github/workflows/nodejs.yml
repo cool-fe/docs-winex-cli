@@ -1,4 +1,4 @@
-name: Winex-docs CI
+name: Winex CLI-docs CI
 
 on: 
   push:
