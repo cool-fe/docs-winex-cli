@@ -3,7 +3,7 @@
 `.prettierrc.js` 配置：
 
 
-``` json
+``` js
 module.exports = {
     // 在ES5中有效的结尾逗号（对象，数组等）
     trailingComma: 'none',
@@ -44,6 +44,5 @@ module.exports = {
     endOfLine: 'lf',
     // 格式化嵌入的内容
     embeddedLanguageFormatting: 'auto',
-  }
-  
+}
 ```
