@@ -17,31 +17,31 @@ winex lint
 :::
 
 
-你会被提示选取项目的运行环境 env。你可以根据项目实际情况来选取。
+你会被提示选取项目的运行环境(env)，你可以根据项目实际情况来选取。
 
 ![WINEX CLI 预览](/docs-winex-cli/lint-env.jpg)
 
 
-还会要求选择项目会否支持TypeScrpt
+还会要求选择项目是否支持TypeScrpt
 
 ![WINEX CLI ts](/docs-winex-cli/lint-ts.png)
 
 
 
-当你运行如上命令的时候，大概做了如下几件事情:
+整个lint命令大概做了如下几件事情：
 
-- 根据项目类型安装eslint相关依赖包
-- 生`·.eslintrc.js`配置文件
+- 根据项目类型安装eslint相关依赖集
+- 初始化/升级`.eslintrc.js`配置文件
 - 安装prettier依赖包
-- 生成`.prettierrc.js`配置文件
-- 生成`.editorconfig`配置文件
-- 生成`.vscode/setting.json`编辑器配置文件
+- 初始化`.prettierrc.js`配置文件
+- 初始化`.editorconfig`配置文件
+- 初始化`.vscode/setting.json`编辑器(vscode)配置文件
 - 安装husky并初始化`.husky`，配置pre-commit git hook
-- 安装lint-staged并生成`.lintstagedrc.js`配置文件，配置相应lint-staged钩子触发增量lint检测
+- 安装lint-staged并初始化`.lintstagedrc.js`配置文件，配置相应lint-staged钩子触发增量lint检测(尤其对历史项目有用，只会对修改过的文件做检测)
 
 ![WINEX CLI ts](/docs-winex-cli/lint-all.png)
 
-你可以试着提交(`git add`、`git commit -m ''`)代码，就会触发`lint-staged`钩子：
+你可以试着提交代码(`git add`、`git commit -m 'xxx'`)，就会触发`lint-staged`钩子：
 
 
 ![WINEX CLI lint-commit](/docs-winex-cli/lint-commit.png)
