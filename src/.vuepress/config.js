@@ -64,7 +64,6 @@ module.exports = {
         '/config/eslint',
         '/config/prettier',
         '/config/husky',
-        '/config/lint-staged',
         '/config/vscode',
       ],
     }

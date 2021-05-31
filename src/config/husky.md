@@ -1,1 +1,1 @@
-# husky
+# husky & lint-staged
