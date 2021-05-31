@@ -13,7 +13,7 @@ module.exports = {
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
-   *
+   *·
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
@@ -42,6 +42,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: 'lint配置指南',
+        link: '/config/',
+      },
+      {
         text: '物料开发',
         link: 'https://cool-fe.github.io/winex-material-doc/guides/',
       },
@@ -54,6 +58,14 @@ module.exports = {
         '/guide/init',
         '/guide/add',
         '/guide/lint'
+      ],
+      '/config/': [
+        '/config/',
+        '/config/eslint',
+        '/config/prettier',
+        '/config/husky',
+        '/config/lint-staged',
+        '/config/vscode',
       ],
     }
   },
