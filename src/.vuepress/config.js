@@ -29,7 +29,7 @@ module.exports = {
    */
   theme: '@vuepress/theme-vue',
   themeConfig: {
-    repo: 'cool-fe/docs-winex-cli',
+    repo: 'cool-fe/winex-cli',
     editLinks: false,
     editLinkText: 'Edit this on GitHub!',
     lastUpdated: 'Last updated',
