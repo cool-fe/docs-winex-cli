@@ -1,6 +1,6 @@
 ---
 home: true
-actionText: 起步 →
+actionText: 快速上手 →
 actionLink: /guide/
 ---
 

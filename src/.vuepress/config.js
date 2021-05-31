@@ -40,6 +40,10 @@ module.exports = {
         text: '指南',
         link: '/guide/',
       },
+      {
+        text: '物料开发',
+        link: 'https://cool-fe.github.io/winex-material-doc/guides/',
+      },
       
     ],
     sidebar: {
