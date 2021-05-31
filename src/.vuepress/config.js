@@ -30,9 +30,10 @@ module.exports = {
   theme: '@vuepress/theme-vue',
   themeConfig: {
     repo: 'cool-fe/winex-cli',
-    editLinks: false,
-    editLinkText: 'Edit this on GitHub!',
-    lastUpdated: 'Last updated',
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdated: '上次更新',
+    docsRepo: 'cool-fe/docs-winex-cli',
     docsDir: 'src',
     sidebarDepth: 2,
     nav: [
