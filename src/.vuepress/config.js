@@ -45,7 +45,7 @@ module.exports = {
         link: "/guide/",
       },
       {
-        text: "升级指南",
+        text: "迁移指南",
         link: "/migration/",
       },
       {
