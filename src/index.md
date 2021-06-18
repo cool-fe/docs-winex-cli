@@ -9,7 +9,7 @@ actionLink: /guide/
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@winfe/winex-cli"><img alt="NPM Status" src="https://img.shields.io/npm/v/@winfe/winex-cli.svg?style=flat"/></a>
-  <a href="https://circleci.com/gh/cool-fe/winex-cli/tree/main"><img alt="CI Status" src="https://circleci.com/gh/cool-fe/winex-cli/tree/dev.svg?style=shield"/></a>
+  <a href="https://circleci.com/gh/cool-fe/winex-cli/tree/main"><img alt="CI Status" src="https://circleci.com/gh/cool-fe/winex-cli/tree/main.svg?style=shield"/></a>
   <a href="https://lerna.js.org/"><img alt="CI Status" src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" /></a>
 </p>
 
