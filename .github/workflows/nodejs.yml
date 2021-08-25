@@ -23,7 +23,7 @@ jobs:
         run: |
           rm -rf node_modules
           yarn install
-          yarn run build
+          yarn run dumi:build
         env:
           CI: true
 
@@ -31,7 +31,7 @@ jobs:
         env:
           ACCESS_TOKEN_DEPLOY: ${{secrets.VUE_DOCS_ZH_CN_TOKEN}}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+          PUBLISH_DIR: ./dist
           CNAME: winex.cl.org
         run: |
           chmod +x ./scripts/deploy.sh

@@ -16,7 +16,7 @@ winex init --name <app-name>
 
 开发者可以根据实际情况进行选择.
 
-![CLI preview](/docs-winex-cli/init.png)
+![CLI preview](../public/init.png)
 
 ### normal
 
@@ -29,7 +29,7 @@ winex init --name <app-name>
 
 初始化项目时, 项目的`version`与`description`选项配置, 非必填项, 默认版本为**0.0.1**, 描述为**A project created by winex-cli**. 可以根据实际需要进行修改.
 
-![CLI preview](/docs-winex-cli/scaffold.png)
+![CLI preview](../public/scaffold.png)
 
 模板选择完毕时, winex还会问询开发者是否需要对远程仓库进行初始化, 如需要, 则winex-cli会要求填写`repository url`, 用于关联远程仓库地址.
 
@@ -39,7 +39,7 @@ winex init --name <app-name>
 ```
 winex init --name hello-world --template @winexmaterial-scaffolds/wn-vue2.x-template
 ```
-![CLI preview](/docs-winex-cli/template.png)
+![CLI preview](../public/template.png)
 
 指定项目模板时, 会对模板名称进行合法性检测, 需满足以下条件:
 - 有效的npm命名规则
@@ -49,7 +49,7 @@ winex init --name hello-world --template @winexmaterial-scaffolds/wn-vue2.x-temp
 
 `winex init` 命令还有一些可选项, 可以使用`--help`指令查看具体的参数说明:
 
-![CLI preview](/docs-winex-cli/help.png)
+![CLI preview](../public/help.png)
 
 | 选项名称（option） | 缩写 | 选项说明 |  可选值 |
 |---------- |-------- |-------- |-------- |

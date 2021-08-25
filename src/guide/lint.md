@@ -19,12 +19,12 @@ winex lint
 
 你会被提示选取项目的运行环境(env)，你可以根据项目实际情况来选取。
 
-![WINEX CLI 预览](/docs-winex-cli/lint-env.jpg)
+![WINEX CLI 预览](../public/lint-env.jpg)
 
 
 还会要求选择项目是否支持TypeScrpt
 
-![WINEX CLI ts](/docs-winex-cli/lint-ts.png)
+![WINEX CLI ts](../public/lint-ts.png)
 
 
 
@@ -39,12 +39,12 @@ winex lint
 - 安装husky并初始化`.husky`，配置pre-commit git hook
 - 安装lint-staged并初始化`.lintstagedrc.js`配置文件，配置相应lint-staged钩子触发增量lint检测(尤其对历史项目有用，只会对修改过的文件做检测)
 
-![WINEX CLI ts](/docs-winex-cli/lint-all.png)
+![WINEX CLI ts](../public/lint-all.png)
 
 你可以试着提交代码(`git add`、`git commit -m 'xxx'`)，就会触发`lint-staged`钩子：
 
 
-![WINEX CLI lint-commit](/docs-winex-cli/lint-commit.png)
+![WINEX CLI lint-commit](../public/lint-commit.png)
 
 
 `winex lint` 命令有一些可选项，你可以通过运行以下命令进行探索：

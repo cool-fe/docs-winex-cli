@@ -1,3 +1,10 @@
+---
+nav:
+  title: 迁移指南
+toc: migration
+---
+
+
 # 介绍
 
 ::: info 提示
