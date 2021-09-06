@@ -20,9 +20,8 @@ footer: Open-source MIT Licensed | Copyright © 2017-present<br />Powered by [du
 ---
 
 
-## 三分钟上手 Umi
+## 三分钟上手
 
-[![Edit umi](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vmi-84fzy?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fpages%2Findex.vue&theme=dark)
 
 - 安装：
 
